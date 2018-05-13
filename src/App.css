@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+html, body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+div {
+  height: 100%;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.form-container .text-center {
+  height: 100%;
+  padding: 0;
+}
+
+Titles {
+  max-height: 100%;
+}
+
+h1, h3, p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.titles {
+  margin-top: 9em;
+}
+
+form {
+  margin: 1.5em auto;
+}
+
+.title-container {
+  background-image: url("./images/bg copy.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 100%;
+  padding: 0;
+}
+
+.form-container {
+  background-color: #28306d;
+}
+
+input {
+  background: rgba(255, 255, 255, 90%);
+  border: none;
+  border-bottom: 2px solid #632320;
+  margin: 1.5em;
+}
+
+p {
+  color: white;
+  font-size: 1.5em;
+}
+
+Weather {
+  max-height: 100%;
+}
